@@ -1,0 +1,25 @@
+{
+  "name": "timelinetek5",
+  "version": "1.0.0",
+  "description": "Timeline for Tek5 students",
+  "main": "fillDataFromIntra.js",
+  "scripts": {
+    "start": "node fillDataFromIntra.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AurelienFT/TimelineTEK5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AurelienFT/TimelineTEK5/issues"
+  },
+  "homepage": "https://github.com/AurelienFT/TimelineTEK5#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.0.0"
+  }
+}
