@@ -19,7 +19,7 @@ var options = {
         }
     ],
     chart: {
-        height: 200,
+        height: 1000,
         type: 'rangeBar'
     },
     plotOptions: {
@@ -34,11 +34,11 @@ var options = {
     dataLabels: {
         enabled: true,
         formatter: function(val, opts) {
-            var label = opts.w.globals.labels[opts.dataPointIndex]
-            var a = moment(val[0])
-            var b = moment(val[1])
-            var diff = b.diff(a, 'days')
-            return "Duree: " + diff + (diff > 1 ? ' days' : ' day')  + " | Credits: " + opts.w.config.series[opts.seriesIndex].data[opts.dataPointIndex].credits
+            //var label = opts.w.globals.labels[opts.dataPointIndex]
+            //var a = moment(val[0])
+            //var b = moment(val[1])
+            //var diff = b.diff(a, 'days')
+            //return "Duree: " + diff + (diff > 1 ? ' days' : ' day')  + " | Credits: " + opts.w.config.series[opts.seriesIndex].data[opts.dataPointIndex].credits
         },
         style: {
             colors: ['#f3f4f5', '#fff'],
@@ -52,7 +52,10 @@ var options = {
         show: true,
         labels: {
             minWidth: 100,
-            maxWidth: 350
+            maxWidth: 400,
+            formatter: function(val) {
+               return val;
+            },
         },
     },
     grid: {

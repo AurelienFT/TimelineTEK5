@@ -21,11 +21,13 @@ async function getModuleInfos() {
     for (var module of modules) {
         let data = await fetch(`https://intra.epitech.eu/${process.env.INTRANET_AUTOLOGIN}/module/2021/${module.codemodule}/${module.codeinstance}/?format=json`);
         let json = await data.json();
+        console.log(json.title)
+        console.log(json.activites[0].type_code)
+        console.log(json.activites[0].type_code === "tp" ? json.activites[0].begin : json.activites[1].begin)
         modulesInfos.push({
             name: json.title,
-            start: json.begin,
-            end_register: json.end_register,
-            end: json.end,
+            start: json.activites[0].type_code === "tp" ? json.activites[0].begin : json.activites[1].begin,
+            end: json.activites[json.activites.length - 1].end,
             credits: json.credits,
             color: await getRandomColor()
         });
