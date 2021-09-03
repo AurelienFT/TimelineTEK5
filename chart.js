@@ -19,7 +19,7 @@ var options = {
         }
     ],
     chart: {
-        height: 1000,
+        height: 2000,
         type: 'rangeBar'
     },
     plotOptions: {
