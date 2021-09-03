@@ -27,7 +27,7 @@ async function getModuleInfos() {
         modulesInfos.push({
             name: json.title,
             start: json.activites[0].type_code === "tp" ? json.activites[0].begin : json.activites[1].begin,
-            end: json.activites[json.activites.length - 1].end,
+            end: json.end,
             credits: json.credits,
             color: await getRandomColor()
         });
