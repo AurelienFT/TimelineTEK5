@@ -336,10 +336,6 @@
         "codeinstance": "PAR-9-1"
     },
     {
-        "codemodule": "M-UHA-001",
-        "codeinstance": "PAR-9-1"
-    },
-    {
         "codemodule": "M-GAM-902",
         "codeinstance": "PAR-9-2"
     },
@@ -353,10 +349,6 @@
     },
     {
         "codemodule": "M-GAM-906",
-        "codeinstance": "PAR-9-1"
-    },
-    {
-        "codemodule": "M-UHA-003",
         "codeinstance": "PAR-9-1"
     },
     {
@@ -377,10 +369,6 @@
     },
     {
         "codemodule": "M-ALG-102",
-        "codeinstance": "PAR-9-1"
-    },
-    {
-        "codemodule": "M-UHA-002",
         "codeinstance": "PAR-9-1"
     },
     {
@@ -406,17 +394,5 @@
     {
         "codemodule": "M-GAM-906",
         "codeinstance": "PAR-9-2"
-    },
-    {
-        "codemodule": "M-PRO-745",
-        "codeinstance": "PAR-9-1"
-    },
-    {
-        "codemodule": "M-ADM-850",
-        "codeinstance": "PAR-9-1"
-    },
-    {
-        "codemodule": "M-PJL-010",
-        "codeinstance": "PAR-9-1"
     }
 ]
