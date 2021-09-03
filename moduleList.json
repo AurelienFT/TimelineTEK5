@@ -6,5 +6,417 @@
     {
         "codemodule": "M-EIP-901",
         "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-045",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-001",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-902",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-002",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-MNG-900",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-003",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-EIP-901",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-BYG-001",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-002",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-ALG-901",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-004",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-004",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-OPS-902",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-BDD-901",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-ALG-901",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-TRV-907",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-045",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-ALG-100",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-GAM-903",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-SEC-901",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-SEC-902",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-905",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-902",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-SEC-903",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-BDD-901",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-045",
+        "codeinstance": "PAR-9-3"
+    },
+    {
+        "codemodule": "M-MOB-900",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-GAM-900",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-SEC-903",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-REA-901",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-GAM-900",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-060",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-BYG-001",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-TRV-902",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-900",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-002",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-IOT-200",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-REA-902",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-SEC-901",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-NAN-004",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-BDX-001",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-006",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-904",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-IOT-200",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-SEC-902",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-MNG-900",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-002",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-NAN-003",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-003",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-060",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-TRV-004",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-GAM-904",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-ALG-103",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-906",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-901",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-750",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-OPS-903",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-WEB-902",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-XUX-902",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-GAM-903",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-750",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-004",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-060",
+        "codeinstance": "PAR-9-3"
+    },
+    {
+        "codemodule": "M-PRO-870",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-GAM-902",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-GAM-904",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-OPS-903",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-REA-901",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-REA-902",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-TRV-001",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-SEC-904",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-SEC-905",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-MOB-900",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-SEC-907",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-001",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-001",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-GAM-905",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-WEB-902",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-SEC-905",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-BYG-001",
+        "codeinstance": "PAR-9-3"
+    },
+    {
+        "codemodule": "M-TRV-902",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-NAN-001",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-UHA-001",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-GAM-902",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-904",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-900",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-GAM-906",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-UHA-003",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PRO-901",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-870",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-SEC-906",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-BDX-002",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-ALG-102",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-UHA-002",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-EIP-900",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-TRV-006",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-XUX-902",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-GAM-905",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-ALG-103",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-GAM-906",
+        "codeinstance": "PAR-9-2"
+    },
+    {
+        "codemodule": "M-PRO-745",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-ADM-850",
+        "codeinstance": "PAR-9-1"
+    },
+    {
+        "codemodule": "M-PJL-010",
+        "codeinstance": "PAR-9-1"
     }
 ]
