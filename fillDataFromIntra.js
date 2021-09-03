@@ -19,7 +19,6 @@ function getRandomColor() {
 async function getModuleInfos() {
     let modulesInfos = []
     for (var module of modules) {
-        console.log(`https://intra.epitech.eu/${process.env.INTRANET_AUTOLOGIN}/module/2021/${module.codemodule}/${module.codeinstance}/?format=json`);
         let data = await fetch(`https://intra.epitech.eu/${process.env.INTRANET_AUTOLOGIN}/module/2021/${module.codemodule}/${module.codeinstance}/?format=json`);
         let json = await data.json();
         modulesInfos.push({

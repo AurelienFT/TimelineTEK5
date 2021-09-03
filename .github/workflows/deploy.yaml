@@ -17,6 +17,8 @@ jobs:
       run: npm install
     - name: Run update modules task
       run: npm run start
+      env:
+        INTRANET_AUTOLOGIN: ${{ secrets.INTRANET_AUTOLOGIN }}
     - name: Deploy to Server
       uses: easingthemes/ssh-deploy@main
       env:
