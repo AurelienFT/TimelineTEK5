@@ -37,8 +37,19 @@ async function getModuleInfos() {
 		console.log(" ")
 	}
 
-	fs.writeFileSync(`modulesInfos.js`, "moduleInfos = " + JSON.stringify(modulesInfos, null, 4));
+	const sortedModuleInfos = modulesInfos.sort(compare)
+	fs.writeFileSync(`modulesInfos.js`, "moduleInfos = " + JSON.stringify(sortedModuleInfos, null, 4));
 
+}
+
+function compare(a, b) {
+	const a_start = new Date(a.start).getTime()
+	const b_start = new Date(b.start).getTime()
+	if (a_start < b_start)
+		return -1
+	if (a_start > b_start)
+		return 1
+	return 0
 }
 
 getModuleInfos();
