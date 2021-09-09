@@ -29,10 +29,11 @@ async function getModuleInfos() {
 		modulesInfos.push({
 			name: json.title,
 			code: module.codemodule,
+			instance: module.codeinstance,
 			start: json.activites[0].type_code === "tp" ? json.activites[0].begin : json.activites[1].begin,
 			end: json.end,
 			credits: json.credits,
-			color: await getRandomColor()
+			color: module.color ? module.color : await getRandomColor()
 		});
 		console.log(" ")
 	}
