@@ -31,6 +31,7 @@ const options = {
 			}
 		}
 	},
+
 	dataLabels: {
 		enabled: true,
 		formatter: function (val, opts) {
@@ -46,7 +47,7 @@ const options = {
 		}
 	},
 	xaxis: {
-		type: 'datetime'
+		type: 'datetime',
 	},
 	yaxis: {
 		show: true,
@@ -63,6 +64,24 @@ const options = {
 			colors: ['#f3f4f5', '#fff'],
 			opacity: 1
 		}
+	},
+	annotations: {
+		xaxis: [
+			{
+				x: Date.now(),
+				strokeDashArray: 0,
+				borderColor: '#775DD0',
+				label: {
+					borderColor: '#775DD0',
+					orientation: 'horizontal',
+					style: {
+						color: '#fff',
+						background: "#775DD0"
+					},
+					text: "Today",
+				}
+			}
+		]
 	}
 };
 
