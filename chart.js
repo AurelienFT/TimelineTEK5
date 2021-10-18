@@ -1,12 +1,12 @@
 let formattedModuleInfos = moduleInfos.map(moduleInfo => {
 	return {
-		x: `${moduleInfo.name} - ${moduleInfo.code}`,
+		x: `${moduleInfo.name} | ${moduleInfo.code}`,
 		y: [
 			new Date(moduleInfo.start).getTime(),
 			new Date(moduleInfo.end).getTime()
 		],
 		fillColor: moduleInfo.color,
-		credits: moduleInfo.credits.toString()
+		credits: moduleInfo.credits.toString(),
 	}
 })
 
@@ -31,6 +31,7 @@ const options = {
 			}
 		}
 	},
+
 	dataLabels: {
 		enabled: true,
 		formatter: function (val, opts) {
@@ -41,12 +42,12 @@ const options = {
 			//return "Duree: " + diff + (diff > 1 ? ' days' : ' day')  + " | Credits: " + opts.w.config.series[opts.seriesIndex].data[opts.dataPointIndex].credits
 		},
 		style: {
-			colors: ['#f3f4f5', '#fff'],
+			colors: ['#000000', '#fff'],
 			fontSize: '12px',
 		}
 	},
 	xaxis: {
-		type: 'datetime'
+		type: 'datetime',
 	},
 	yaxis: {
 		show: true,
@@ -63,6 +64,24 @@ const options = {
 			colors: ['#f3f4f5', '#fff'],
 			opacity: 1
 		}
+	},
+	annotations: {
+		xaxis: [
+			{
+				x: Date.now(),
+				strokeDashArray: 0,
+				borderColor: '#775DD0',
+				label: {
+					borderColor: '#775DD0',
+					orientation: 'horizontal',
+					style: {
+						color: '#fff',
+						background: "#775DD0"
+					},
+					text: "Today",
+				}
+			}
+		]
 	}
 };
 
